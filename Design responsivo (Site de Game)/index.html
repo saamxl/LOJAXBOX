@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XBOX</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="img/xbox-logo-transparent-free-png.webp" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Controles</a></li>
+                    <li><a href="">Acesórios VR</a></li>
+                    <li><a href="">Controles Remotos</a></li>
+                    <li><a href="">Outros</a></li>
+                </ul>
+            </nav>
+            <img src="./img/menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+<div class="row">
+<div class="col-1">
+    <h2>XBOX ONE S</h2>
+    <h3>Controle sem fio para XBOX ONE S</h3>
+    <p class="cg"> (Compatível/Genérico) </p>
+    <button type="button">Compre agora <img src="img/arrow.png" ></button>
+</div>
+<div class="col-2">
+    <img src="img/controle_xbox-removebg-preview.png" class="controller">
+    <div class="color-box"></div>
+    <div class="add-btn">
+        <img src="img/add.png">
+        <p><small>Add to Cart</small></p>
+    </div>
+</div>
+</div>
+
+<section class="sobre">
+    <h1 class="heading"> SOBRE </h1>
+    <img src="img/billy-freeman-3XMP10gBuMw-unsplash.jpg" class="image">
+    
+    <p class="paragrafo">O controle do Xbox One S é altamente compatível com uma variedade de plataformas e dispositivos, o que o torna uma escolha popular entre jogadores de videogame de todo o mundo. Ele é projetado para ser compatível com o console Xbox One, o Xbox One X, o Xbox One S, o Xbox Series X e o Xbox Series S, bem como com o PC com Windows 10.
+
+        Além disso, o controle do Xbox One S pode ser facilmente conectado a dispositivos móveis, como smartphones e tablets, graças à tecnologia Bluetooth embutida. Isso significa que os usuários podem jogar jogos em dispositivos móveis com o controle do Xbox One S, proporcionando uma experiência mais envolvente e confortável.
+        
+        Para dispositivos que não possuem tecnologia Bluetooth, como o Xbox 360 ou outros consoles de videogame mais antigos, o controle do Xbox One S pode ser conectado usando um adaptador sem fio, que pode ser adquirido separadamente.
+        </p>
+</section>
+
+<footer>
+    <div id="footer_content">
+        <div id="footer_contacts">
+            <div>
+                <a href="#" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="footer-link" id="facebook">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="footer-link" id="google">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<footer>
+    <div class="social-links">
+        <img src="img/fb.png">
+        <img src="img/tw.png">
+        <img src="img/ig.png">
+    </div>
+</footer>
+
+<script>
+
+var menuList = document.getElementById("menuList");
+
+menuList.style.maxHeight = "0px";
+
+function togglemenu(){
+
+if(menuList.style.maxHeight =="0px")
+{
+    menuList.style.maxHeight = "130px"
+}
+else
+{
+    menuList.style.maxHeight = "0px"
+
+}
+
+}
+
+</script>
+
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+</body>
+</html>
